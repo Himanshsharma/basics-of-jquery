@@ -27,7 +27,7 @@
             <div id="him"><h1>html</h1> </div>
             <br><br>
             <br><img src="rose-blue-flower-rose-blooms-67636.jpeg" id="op"><br><br><br>
-            <br> click on this button to toogle the image . <br><br>
+            <br> click on this button to toggle the image . <br><br>
             <br>
             <button id="hj">changing picture content</button>
             <br><br>
@@ -39,8 +39,11 @@
     $(document).ready(function(){
         $('#jk').click(function(){
             $('#di').css("background-color","red").animate({left:'300px',height:'20px'})
-            
-
+        
+        })
+        
+        $("p").click(function(){
+            $('p').fadeToggle(2000)
         })
     $('#jj').click(function(){
         $('#him').html("<h1>see the change</h1>")
