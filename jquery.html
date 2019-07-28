@@ -5,16 +5,18 @@
             jQuery greatly simplifies JavaScript programming.
             jQuery is easy to learn.</p><br>
             <br><br>
-            <p>himansh</p>
+            <p>learn here ^_^</p>
             
-            <h1>
-                for jquery online use 
+          
                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
 
 
             </h1>
-            basic code for jquery
             
+            <h1  id="easy">
+        for jquery online use 
+    welcome to jquery simple and easy to use world!!!</h1>
+            basic code for jquery
             <div style="width:300px;height:250px;background:blue;position:absolute" id="di"></div><br><br>
             <br><br><br>
             <br><br><br>
@@ -27,17 +29,21 @@
             <button id="jj">changing html content</button>
             <div id="him"><h1>html</h1> </div>
             <br><br>
-            <br><img src="rose-blue-flower-rose-blooms-67636.jpeg" id="op"><br><br><br>
+            <br>
+            <h2>events on forms</h2>
+     <input class="hik">
+     <p class="l"></p>
+            <img src="rose-blue-flower-rose-blooms-67636.jpeg" id="op"><br><br><br>
             <br> click on this button to toggle the image . <br><br>
             <br>
             <button id="hj">changing picture content</button>
             <br><br>
             <br><img src="rose-blue-flower-rose-blooms-67636.jpeg" id="kl">
             <br><br>
-            <br><button id="ff">click to slide down the image</button>
-     <h2>events on forms</h2>
-     <input class="hik">
-     <p class="l"></p>
+            <br><button id="ff">click to slide down the image</button><br><br><br>
+            <button type="submit" id="ttyl">submit </button>
+            <p class="you"></p>
+     
     <script>
     $(document).ready(function(){
         $('#jk').click(function(){
@@ -64,10 +70,16 @@
     })
     $('.hik').blur(function(){
         $('.l').text("end")
-
-
     })
+    $('#ttyl').click(function(){
+        $('.you').text("you can proceed to next page")
     })
-
+    $('#ttyl').mouseleave(function(){
+        $('.you').html("<h1>we cannot proceed</h1>")
+    })
+$('#easy').click(function(){
+    alert($('#easy').text())
+})
+    })
     </script>
 </html>
