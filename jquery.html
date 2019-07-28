@@ -35,7 +35,9 @@
             <br><img src="rose-blue-flower-rose-blooms-67636.jpeg" id="kl">
             <br><br>
             <br><button id="ff">click to slide down the image</button>
-    <p>sharma</p></body>
+     <h2>events on forms</h2>
+     <input class="hik">
+     <p class="l"></p>
     <script>
     $(document).ready(function(){
         $('#jk').click(function(){
@@ -54,6 +56,16 @@
     })
     $('#ff').click(function(){
         $('#kl').slideUp(2000).slideDown(2000)
+    })
+    $('.hik').focus(function(){
+        $('.l').text("welcome")
+
+
+    })
+    $('.hik').blur(function(){
+        $('.l').text("end")
+
+
     })
     })
 
